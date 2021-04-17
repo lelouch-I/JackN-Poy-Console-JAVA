@@ -10,13 +10,15 @@ public class App {
 		while(true)
 		{
 			limit = Game.getRounds();
+			
 			if(limit != 0)
 			{
+				System.out.print("YOU CHOOSE " + limit + " ROUNDS");
 				break;
 			}
 			else
 			{
-				System.out.println("PLEASE ENTER ONLY 1 - 3");
+				System.out.println("PLEASE ENTER ONLY 1 - 3\n");
 			}
 		}
 

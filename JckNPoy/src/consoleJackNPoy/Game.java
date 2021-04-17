@@ -18,12 +18,13 @@ public class Game {
 		System.out.println("[1] 3 ROUNDS");
 		System.out.println("[2] 5 ROUNDS");
 		System.out.println("[3] 7 ROUNDS");
+		System.out.print("ENTER YOUR CHOICE: ");
 		try {
 			rounds = get.nextInt();
 
 
 		}catch (InputMismatchException e) {
-			System.out.println("PLEASE ENTER ONLY NUMBERS FROM OPION !!!");
+			System.out.println("PLEASE ENTER ONLY NUMBERS FROM OPTION !!!");
 		}
 
 		if(rounds == 1)
